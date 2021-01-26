@@ -12,7 +12,7 @@
 
 <body class="h-screen bg-black">
 
-    <header class="px-6 py-4 bg-gray-900">
+    <header class="px-6 py-4 bg-gray-900 flex items-center justify-between">
         <div>
             <div class="logo">
                 <svg viewBox="0 0 192 37" fill="none"
@@ -62,7 +62,7 @@
 
         <nav>
             <ul class="flex items-center">
-                <li>
+                <li class="add-users p-3">
                     <a href="#">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="24"
                             color="#A8A8B3" height="24" width="24" xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="alert p-3">
                     <a href="#">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="24"
                             color="#A8A8B3" height="24" width="24" xmlns="http://www.w3.org/2000/svg"
@@ -84,10 +84,13 @@
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <strong>Mayk Brito</strong>
+                <li class="user flex items-center">
+                    <strong
+                    class="text-gray-400 hidden sm:inline ml-4"
+                    >
+                    Mayk Brito</strong>
                     <img
-                    class="border-2 border-green-500 rounded-full h-12 w-12"
+                    class="border-2 border-green-500 rounded-full h-12 w-12 ml-4"
                     src="https://avatars3.githubusercontent.com/u/6643122?v=4" alt="Mayk Brito Profile">
                 </li>
             </ul>
